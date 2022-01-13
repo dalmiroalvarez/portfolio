@@ -1,0 +1,142 @@
+/*FONT NAVBAR*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/*FONT FOOTER*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+/*FONT DALMIRO ALVAREZ H1*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+/*FONT DESARROLLADOR F-E H2*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+/*FONT TEXTO-ABOUT*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap'); 
+
+
+.nav-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.nav-link:hover {
+    color: #b1c4b9 !important;
+    font-size: 17px;
+}
+
+.espacio-previo-footer {
+    padding-top: 20px;
+}
+
+.pie-container {
+    background-color: rgba(0, 0, 0, 0.77);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pie-info {
+    display: flex;
+    justify-content: center;
+}
+
+.letra-info-pie {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    color: #fff;
+}
+
+.espacio-seccion-uno {
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+/**/
+
+.texto-contacto-uno {
+    padding-top: 45px;
+}
+
+/**/
+
+.hero {
+    background-image: url('../images/reactjs.jpg');
+    background-size: cover;
+    padding-top: 70px;    
+    min-height: 430px;    
+    color: #fff;
+}
+
+.dalmiro-alvarez {
+    font-family: 'Nunito', sans-serif;
+    font-size: 70px;
+    padding-bottom: 5px;
+}
+
+.desarrollador-frontend {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+.btn-conocer-mas {
+    padding-left: 25px;
+}
+
+.txt-ab {
+    font-size: 18px !important;
+    padding-top: 15px;
+}
+
+.card-alignment {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-space {
+    padding-top: 20px;
+}
+
+/*STYLES SECCION CONTACTO*/
+
+.borde-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.propiedades-input {
+    background-color: #ece4e4 !important;
+}
+
+.formulario-contacto {
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.botones-formulario {    
+    padding-top: 20px;
+}
+
+.espacio-secciones {
+    padding-top: 30px;
+}
+
+.card-zoom:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+}
